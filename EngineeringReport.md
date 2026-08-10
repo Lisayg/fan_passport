@@ -17,7 +17,7 @@
 
 ## 2. 사용 AI 도구 및 환경 (AI Tech Stack)
 
-* **AI Model:** Large Language Model (Gemini / Claude 계열 대화형 AI)
+* **AI Model:** Large Language Model (Gemini / Copilot 대화형 AI)
 * **Code Engine:** React 18, Tailwind CSS, Babel Standalone (In-Browser Transpilation)
 * **Collaboration Mode:** 시스템 아키텍트, 토큰노믹스 설계자, UI/UX 디자이너, 프론트엔드 개발자 역할 수행
 
@@ -28,7 +28,7 @@
 ### Step 1. 시장 분석 및 비즈니스 도메인 타당성 검증
 
 
-* **AI 활용 내역:**
+* **AI 활용 내역:** Large Language Model (Gemini / Copilot 대화형 AI)
 * **기술 타당성 평가:** 4개 분야(주차/결제/공연/투표)에 대한 적용 난이도 및 규제 분석 진행.
 * **스마트 컨트랙트 유즈케이스 발굴:** 2차 재판매 상한선 규제(`Max Price = 정가 + 10%`), SBT/DID 기반 암표 차단, 로열티 자동 정산 매커니즘 정립.
 
@@ -39,7 +39,7 @@
 ### Step 2. 서비스 기획 및 토큰노믹스(Tokenomics) 설계
 
 
-* **AI 활용 내역:**
+* **AI 활용 내역:** Large Language Model (Gemini / Copilot 대화형 AI)
 * **미들웨어 아키텍처 수립:** Weverse, DearU Bubble 등 파편화된 DB를 직접 통합하지 않고 상위에서 묶는 **DID 및 계정 추상화(Account Abstraction, ERC-4337)** 모델 제시.
 * **듀얼 토큰/포인트 시스템 설계:**
 * `$XP`: 양도 불가 온체인 활동 점수 (팬 티어 산정)
@@ -55,7 +55,7 @@
 ### Step 3. PoC WebApp 개발 (단일 파일 브라우저 구동 모델)
 
 
-* **AI 활용 내역:**
+* **AI 활용 내역:** Large Language Model (Gemini / Copilot 대화형 AI)
 * **단일 HTML 파일 내 풀스택 프론트엔드 구축:** 별도의 Node.js/Build 도구 없이 CDN으로 React, Tailwind CSS, Babel을 로드해 더블클릭만으로 실행되는 컴팩트 코드 작성.
 * **핵심 기능 컴포넌트화:** AA 지갑 생성을 가식화한 소셜 로그인, 퀘스트 수행 및 $XP/$FAN 가상 상태 업데이트 로직 작성.
 
@@ -66,7 +66,7 @@
 ### Step 4. UX/페르소나 확장 (에겐남 & 테토녀 마스코트 도입)
 
 
-* **AI 활용 내역:**
+* **AI 활용 내역:** Large Language Model (Gemini / Copilot 대화형 AI)
 * **유저 페르소나 및 UX 차별화:**
 * **에겐남(Estrogen Male) 🐰:** 감성·소통·수집형 ➔ 스트리밍 총공 미션 및 핑크 테마 적용.
 * **테토녀(Testosterone Female) 🐯:** 경쟁·직관·랭킹형 ➔ 현장 GPS 출석 및 사이언 테마 적용.
@@ -81,7 +81,7 @@
 ### Step 5. 멀티 탭 확장 (토큰 상점 PG 및 리셀 마켓 구현)
 
 
-* **AI 활용 내역:**
+* **AI 활용 내역:** Large Language Model (Gemini / Copilot 대화형 AI)
 * **멀티 탭 라우팅 구현:** 단일 상태(`activeTab`) 관리 기반으로 SPA(Single Page Application)처럼 상차림 전환.
 * **PG 원화 결제 시뮬레이션:** 원화(KRW) 결제 시 `$FAN` 토큰이 즉시 충전되는 모달 및 상태 연동.
 * **2차 리셀 마켓 스마트 컨트랙트 상한선 구현:** 10% 상한선 조건이 내장된 P2P 거래 및 에스크로 결제 로직 프로토타이핑.
