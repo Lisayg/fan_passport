@@ -1,7 +1,7 @@
-// 1. 상태 추가
+1. 상태 추가
 const [myFace, setMyFace] = useState(null);
 
-// 2. 파일 업로드 핸들러
+2. 파일 업로드 핸들러
 const handleImageUpload = (e) => {
   const file = e.target.files[0];
   if (file) {
@@ -13,7 +13,7 @@ const handleImageUpload = (e) => {
   }
 };
 
-// 3. UI 출력 부분 (이모지 대신 내 사진 표시)
+3. UI 출력 부분 (이모지 대신 내 사진 표시)
 <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-pink-400">
   {myFace ? (
     <img src={myFace} alt="My Face" className="w-full h-full object-cover" />
