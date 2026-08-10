@@ -69,18 +69,7 @@
 
 ---
 
-### 🚀 방법 B: 온라인 웹 URL 링크로 배포하여 시연 (Vercel / Netlify)
-
-제출용 웹 링크(URL)가 필요한 경우, 무료 호스팅 서비스를 통해 10초 만에 온라인에 배포할 수 있습니다.
-
-#### [Netlify 드래그 앤 드롭 배포 순서]
-
-1. 새 폴더를 만들고 그 안에 **`index.html`** 파일을 넣습니다.
-2. [Netlify Drop 페이지](https://app.netlify.com/drop)에 접속합니다.
-3. 준비한 폴더를 화면 중앙의 드롭존에 드래그 앤 드롭합니다.
-4. 즉시 접속 가능한 **`[https://random-name.netlify.app](https://random-name.netlify.app)`** 형태의 배포 링크가 생성됩니다.
-
-### 🤡 방법 C: 온라인 깃허브 페이지 배포, 유튜브 시연 
+### 🚀 방법 B: 온라인 웹 URL 링크로 배포하여 시연 (GitHub Pages/ Youtube)
 
 1. https://lisayg.github.io/fan_passport/
 2. https://youtu.be/4ahZJWQUczs
